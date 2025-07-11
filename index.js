@@ -12,7 +12,7 @@ const admin_route = require('./Router/admin-route')
 
 
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://mern-project-2-by-hamza.netlify.app/',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'], 
     credentials: true, 
 }
